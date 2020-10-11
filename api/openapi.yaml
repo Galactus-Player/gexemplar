@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  contact:
+    email: decline@umass.edu
+    name: Dan Cline
+  description: An exemplar rust repo with an openapi spec
+  license:
+    name: MIT
+  title: Exemplar-Rust
+  version: 0.0.1
+servers:
+- url: http://galactus.player/v1
+paths:
+  /count:
+    get:
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                type: integer
+          description: Endpoint call count.
+      summary: Returns the number of times this endpoint has been called.
+  /dog:
+    get:
+      responses:
+        200:
+          content:
+            application/json:
+              examples:
+                dog:
+                  summary: An example of a woof.
+                  value: woof
+              schema:
+                type: string
+          description: Woof Response.
+      summary: Returns the string "woof".
+components:
+  schemas: {}
+
