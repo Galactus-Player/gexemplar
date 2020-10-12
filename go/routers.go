@@ -1,7 +1,7 @@
 /*
- * Exemplar-Rust
+ * GExemplar
  *
- * An exemplar rust repo with an openapi spec
+ * An exemplar golang repo with an openapi spec
  *
  * API version: 0.0.1
  * Contact: decline@umass.edu

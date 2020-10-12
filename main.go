@@ -1,7 +1,7 @@
 /*
- * Exemplar-Rust
+ * GExemplar
  *
- * An exemplar rust repo with an openapi spec
+ * An exemplar golang repo with an openapi spec
  *
  * API version: 0.0.1
  * Contact: decline@umass.edu
@@ -14,7 +14,7 @@ import (
 	"log"
 	"net/http"
 
-	openapi "github.com/Galactus-Player/gexemplar/go"
+	openapi "github.com/GIT_USER_ID/GIT_REPO_ID/go"
 )
 
 func main() {

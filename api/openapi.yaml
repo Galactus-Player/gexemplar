@@ -3,10 +3,10 @@ info:
   contact:
     email: decline@umass.edu
     name: Dan Cline
-  description: An exemplar rust repo with an openapi spec
+  description: An exemplar golang repo with an openapi spec
   license:
     name: MIT
-  title: Exemplar-Rust
+  title: GExemplar
   version: 0.0.1
 servers:
 - url: http://galactus.player/v1
