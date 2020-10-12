@@ -1,14 +1,9 @@
 with import <nixpkgs> {};
 
 stdenv.mkDerivation {
-  name = "exemplar-rs";
+  name = "gexemplar";
 
   buildInputs = [
-    pkgs.swagger-codegen
     pkgs.openapi-generator-cli
-    pkgs.cargo
-    pkgs.rustc
-    pkgs.openssl
-    pkgconfig
   ];
 }

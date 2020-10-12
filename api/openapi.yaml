@@ -37,4 +37,3 @@ paths:
       summary: Returns the string "woof".
 components:
   schemas: {}
-
